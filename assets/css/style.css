@@ -4088,7 +4088,7 @@ textarea:focus {
   border-radius: 50px 0 0 50px; }
 
 .b-navigation.active {
-  background-color: #00a651;
+  background-color: #f8444f;
   color: #fff; }
 
 .b-navigation2.active2 {
@@ -5838,7 +5838,7 @@ textarea:focus {
       font-size: 24px;
       font-weight: bold;
       margin: 8px 0 23px;
-      color: #00a651; }
+      color: #033668; }
       @media only screen and (max-width: 767px) {
         .blog-details-top .blog-details-content-wrap h3 {
           font-size: 18px; } }
@@ -5854,7 +5854,7 @@ textarea:focus {
       padding: 44px 37px 27px 50px;
       margin: 27px 0 24px; }
       .blog-details-top .blog-details-content-wrap blockquote:before {
-        background-color: #00a651;
+        background-color: #000000;
         width: 4px;
         height: 63px;
         left: 24px;
@@ -5863,7 +5863,7 @@ textarea:focus {
         position: absolute;
         z-index: 9; }
       .blog-details-top .blog-details-content-wrap blockquote i {
-        color: #00a651;
+        color: #f8444f;
         position: absolute;
         font-size: 18px; }
       .blog-details-top .blog-details-content-wrap blockquote i.quote-top {
