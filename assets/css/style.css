@@ -7622,6 +7622,12 @@ details[open] summary::before {
   }
 }
 
+@media only screen and (min-width: 1600px){
+  .choose-negative-mrg{
+    margin-top: -40px !important;
+  }
+}
+
 .animated{
   border-radius: 90px;
 }
