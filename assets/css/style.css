@@ -1280,8 +1280,9 @@ textarea:focus {
     width: 100%;
     height: 44px;
     content: "";
-    background-color: #003466;
-    opacity: .8; }
+    background-color: #0d4e92;
+    /* opacity: .8;  */
+  }
     @media only screen and (max-width: 767px) {
       .header-top:before {
         height: 60px; } }
@@ -1904,7 +1905,7 @@ textarea:focus {
 .slider-content .slider-btn a.btn-white-color {
   background-color: #003466;
   color: #ffffff;
-  border: 1px solid #77d0a2; }
+  border: 1px solid #003466; }
   .slider-content .slider-btn a.btn-white-color:hover {
     background-color: #00a651;
     border: 1px solid transparent;
