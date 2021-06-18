@@ -7608,3 +7608,9 @@ details[open] summary::before {
     padding-bottom: 10px;
   }
 }
+
+@media only screen and (min-width: 1300px){
+  .choose-negative-mrg{
+    margin-top: -40px !important;
+  }
+}
