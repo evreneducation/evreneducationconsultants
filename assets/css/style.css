@@ -7621,3 +7621,7 @@ details[open] summary::before {
     margin-top: -40px !important;
   }
 }
+
+.animated{
+  border-radius: 90px;
+}
