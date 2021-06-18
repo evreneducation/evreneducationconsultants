@@ -7342,7 +7342,7 @@ h3.cart-page-title {
     color: #00a651; }
 
 .login-register-wrapper .login-form-container {
-  background: #0d4e92a6 none repeat scroll 0 0;
+  background: #0d4e92 none repeat scroll 0 0;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
   padding: 55px;
@@ -7424,6 +7424,7 @@ h3.cart-page-title {
 .book-form-heading > h5{
   font-size: 20px;
   font-weight: 500;
+  color: #ffffff;
 }
 
 .how-sec{
