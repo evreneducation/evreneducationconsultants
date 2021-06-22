@@ -1394,7 +1394,7 @@ textarea:focus {
       margin-top: 0px; } }
   @media only screen and (max-width: 767px) {
     .logo {
-      margin-top: 0px;
+      margin-top: 10px;
       width: 150px;
     } }
 
@@ -7608,7 +7608,8 @@ details[open] summary::before {
   }
   .mean-container a.meanmenu-reveal {
     width: 50px;
-    top: -40px;
+    top: -33px;
+    right: 20px;
   }
   .study-abroad-sec{
     padding-top: 40px;
