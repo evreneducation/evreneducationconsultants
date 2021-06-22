@@ -713,12 +713,12 @@
     /*--------------------------
         ScrollUp
     ---------------------------- */
-    $.scrollUp({
-        scrollText: '<i class="fa fa-angle-double-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
+    // $.scrollUp({
+    //     scrollText: '<i class="fa fa-angle-double-up"></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 900,
+    //     animation: 'fade'
+    // });
     
     
     
