@@ -99,65 +99,6 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <!-- <div class="cart-search-wrap">
-                                <div class="cart-wrap">
-                                    <button class="icon-cart">
-                                        <i class="fa fa-cart-plus"></i>
-                                        <span class="count-style">02</span>
-                                    </button>
-                                    <div class="shopping-cart-content">
-                                        <ul>
-                                            <li class="single-shopping-cart">
-                                                <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-1.png"></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="#">Color Box </a></h4>
-                                                    <h6>Qty: 02</h6>
-                                                    <span>$260.00</span>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fa fa-times-circle"></i></a>
-                                                </div>
-                                            </li>
-                                            <li class="single-shopping-cart">
-                                                <div class="shopping-cart-img">
-                                                    <a href="#"><img alt="" src="assets/img/cart/cart-2.png"></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="#">Color Box </a></h4>
-                                                    <h6>Qty: 02</h6>
-                                                    <span>$260.00</span>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fa fa-times-circle"></i></a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="shopping-cart-total">
-                                            <h4>Shipping : <span>$20.00</span></h4>
-                                            <h4>Total : <span class="shop-total">$260.00</span></h4>
-                                        </div>
-                                        <div class="shopping-cart-btn">
-                                            <a class="default-btn btn-hover" href="cart.html">view cart</a>
-                                            <a class="default-btn btn-hover" href="checkout.html">checkout</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="header-search">
-                                    <button class="search-toggle">
-                                        <i class="fa fa-search"></i>
-                                    </button>
-                                    <div class="search-content">
-                                        <form action="#">
-                                            <input type="text" placeholder="Search">
-                                            <button>
-                                                <i class="fa fa-search"></i>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -191,7 +132,8 @@
                                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                  Ut enim ad minim veniam, quis nostrud exercitation </p> -->
                             <div class="slider-btn">
-                                <a class="animated default-btn btn-green-color" href="about-us.html">Book Free Consultation</a>
+                                <a class="animated default-btn btn-green-color" data-toggle="modal" data-target="#exampleModalform" href="about-us.html">Book Free
+                                    Consultation</a>
                                 <!-- <a class="animated default-btn btn-white-color" href="contact.html">CONTACT US</a> -->
                             </div>
                         </div>
@@ -204,6 +146,51 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="exampleModalform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelform" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Book Your Consultation Now</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="https://formspree.io/f/xpzkrgwe" method="POST">
+            <div class="modal-body">
+                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="field-1" class="control-label">Full Name</label>
+                            <input type="text" class="form-control" id="field-1" placeholder="Full Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="field-2" class="control-label">Contact No.</label>
+                            <input type="number" class="form-control" id="field-2" placeholder="Contact">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="field-3" class="control-label">Email Id</label>
+                            <input type="email" class="form-control" id="field-3" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+            </div>                                          
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div> 
 
 <div class="about-us pt-130 pb-130">
     <div class="container">
@@ -245,7 +232,7 @@
                                     <h5>Book Free Consultation Now</h5>
                                 </div>
                                 <div class="login-register-form">
-                                    <form action="#" method="post">
+                                    <form action="https://formspree.io/f/xpzkrgwe" method="POST">
                                         <input type="text" name="name" placeholder="Full Name">
                                         <input type="number" name="contact-no" placeholder="Contact Number">
                                         <input name="user-email" placeholder="Email" type="email">
@@ -271,7 +258,52 @@
                     <img src="assets/img/commom-country-image.jpg" alt="">
                 </div>
                 <div class="about-btn mt-45">
-                    <a class="default-btn-blue" href="about-us.html">Book Free Consultation</a>
+                    <a class="animated default-btn btn-green-color" data-toggle="modal" data-target="#exampleModalform" href="about-us.html">Book Free
+                        Consultation</a>
+                </div> 
+                <div class="modal fade" id="exampleModalform" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelform" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Book Your Consultation Now</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <form action="https://formspree.io/f/xpzkrgwe" method="POST">
+                            <div class="modal-body">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="field-1" class="control-label">Full Name</label>
+                                            <input type="text" class="form-control" id="field-1" placeholder="Full Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="field-2" class="control-label">Contact No.</label>
+                                            <input type="number" class="form-control" id="field-2" placeholder="Contact">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="field-3" class="control-label">Email Id</label>
+                                            <input type="email" class="form-control" id="field-3" placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                          
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
                 </div> 
             </div>
             <div class="col-lg-7 col-md-7">
@@ -506,7 +538,7 @@
                         </div>
                     </div>
                     <div class="about-btn mt-45" style="text-align: center;">
-                        <a class="default-btn-blue" href="about-us.html">Get Started Now</a>
+                        <a class="default-btn-blue" href="contact.html">Get Started Now</a>
                     </div> 
                 </div>
             </div>
@@ -560,9 +592,9 @@
                 </div>
             </div>
         </div>
-        <div class="about-btn mt-45" style="text-align: center;">
+        <!-- <div class="about-btn mt-45" style="text-align: center;">
             <a class="default-btn-blue" href="about-us.html">View More </a>
-        </div> 
+        </div>  -->
     </div>
 </div>
 
@@ -639,7 +671,7 @@
             </div>
         </div>
         <div class="about-btn mt-45" style="text-align: center;">
-            <a class="default-btn" href="about-us.html">Contact uS for more </a>
+            <a class="default-btn" href="contact.html">Contact Us for more </a>
         </div>  
     </div>
 </div>

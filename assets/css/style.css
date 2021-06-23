@@ -7652,8 +7652,16 @@ details[open] summary::before {
         z-index:100;
 }
 
+.whatsapp_float:hover .whatsapp-icon{
+  color: #ffffff;
+}
+
 .whatsapp-icon {
 	margin-top:16px;
+}
+
+.whatsapp-icon:hover{
+  color: #ffffff;
 }
 /* for mobile */
 @media screen and (max-width: 767px){
